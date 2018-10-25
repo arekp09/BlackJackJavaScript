@@ -1,12 +1,9 @@
-﻿body
-{
+﻿body {
     background-color: peachpuff;
     padding: 15px 10px;
 }
 
-div.result-display 
-{
-    position: relative;
+div.result-display {
     border-style: solid;
     border-color: lightskyblue;
     border-width: 1px;
@@ -15,10 +12,10 @@ div.result-display
     padding: 10px;
     width: 150px;
     text-align: center;
+    margin: auto;
 }
 
-div.game-border 
-{
+div.game-border {
     border-style: solid;
     border-color: lightskyblue;
     border-width: 2px;
@@ -28,14 +25,12 @@ div.game-border
     text-align: center;
 }
 
-h1.title-display
-{
+h1.title-display {
     text-shadow: 3px 3px 1px #808080;
     font-family: Britannic;
 }
 
-.button 
-{
+.button {
     position: relative;
     background-color: #ff6a00;
     border: none;
@@ -51,8 +46,7 @@ h1.title-display
     cursor: pointer;
 }
 
-.button:after 
-{
+.button:after {
     content: "";
     background: #f1f1f1;
     display: block;
@@ -65,8 +59,7 @@ h1.title-display
     transition: all 0.8s
 }
 
-.button:active:after 
-{
+.button:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
